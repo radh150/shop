@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+
+    <!-- <style>
+     [class*="col"] {
+        padding: 1rem;
+        background-color: #0d2832;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+        border: 2px solid;
+    }
+    </style> -->
+
+    <link rel="stylesheet" href="bootstrap.css ">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<style>
+  .filterDiv {
+
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+</style>
+<body style="width: 100%; height: 100%;">
+   <div class="container-fluid" class="site"style="border: 2px solid; width: 100%; height: 150%; margin:0;">
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="grid-demo2.html"  style="width: 20%;"><img src="logoIpsum.png" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="menubar collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="grid-demo2.html">Home </a>
+          <a class="nav-item nav-link" href="products.html">Products</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="login.html" style="position: absolute; right: 1%;">login</a>
+          <a class="nav-item nav-link disabled" href="#"></a>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="featured" style="padding: 126px 0;">
+
+      <div class="section-header d-flex flex-wrap align-items-center justify-content-between" style="padding: 2% 0 50px;">
+        <h2 class="section-title">All Products</h2>                       
+      </div>
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+      </div>
+      
+      <div class="row d-flex flex-wrap" style=" margin-left: auto; margin-right: auto; width: 100%;">
+
+        
+        <div class="filterDiv cars col-lg-3 col-md-4 col-sm-6 col-6" style="padding: 0; border: 2px solid #fff;">
+          <img src="shirt-cat.jpg" class="card-img-top" alt="KOT">
+        </div>
+
+        <div class="filterDiv fruits col-lg-3 col-md-4 col-sm-6 col-6" style="padding: 0; border: 2px solid #fff;">
+          <img src="shirt-cat.jpg" class="card-img-top" alt="KOT">
+        </div>
+
+        <div class="filterDiv colors col-lg-3 col-md-4 col-sm-6 col-6" style="padding: 0; border: 2px solid #fff;">
+          <img src="shirt-cat.jpg" class="card-img-top" alt="KOT">
+        </div>
+      
+        <div class="filterDiv colors col-lg-3 col-md-4 col-sm-6 col-6" style="padding: 0; border: 2px solid #fff;">
+          <img src="shirt-cat.jpg" class="card-img-top" alt="KOT">
+        </div>
+
+
+
+
+    </div>
+
+
+    </section>
+      
+      <footer id="footer">
+        <div class="container">
+          <div class="footer-menu-list">
+            <div class="row d-flex flex-wrap justify-content-between">
+
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-style">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Ultras</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Conditions </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="blog.html">Our Journals</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Affiliate Programme</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Ultras Press</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-style" >
+                <div class="footer-menu">
+                  <h5 class="widget-title">Customer Service</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="faqs.html">FAQ</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Returns & Refunds</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Cookie Guidelines</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Delivery Information</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-style">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Contact Us</h5>
+                  <p>Do you have any questions or suggestions? <a href="#" class="email">ourservices@ultras.com</a>
+                  </p>
+                  <p>Do you need assistance? Give us a call. <br>
+                    <strong>+57 444 11 00 35</strong>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-style" >
+                <div class="footer-menu">
+                  <h5 class="widget-title">Forever 2018</h5>
+                  <p>Cras mattis sit ornare in metus eu amet adipiscing enim. Ullamcorper in orci, ultrices integer eget arcu. Consectetur leo dignissim lacus, lacus sagittis dictumst.</p>
+                  <div class="social-links">
+                    <ul class="d-flex list-unstyled">
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-youtube-play"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-behance-square"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+      </footer>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* *{
+    box-sizing: border-box;
+}
+.top-bar{
+    display: flex !important;
+    width: 100% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    justify-content: space-between !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.menu{
+    display: flex !important;
+    max-height: 80% !important;
+    width: 100% !important;
+    background: #ffffff !important;
+    float: left !important;
+    justify-content: space-between !important;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 5px 10px 0px !important;
+    line-height: 170% !important;
+}
+.menubar{
+    background-color: #ffffff;
+    justify-content: space-between !important;
+    
+} */
